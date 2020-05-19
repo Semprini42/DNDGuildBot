@@ -66,7 +66,7 @@ Skills: Athletics, Insight, Survival
 Weapons: 2 Hand axes, War axe
     """)
 
-@bot.command(aliases = ['zoel', 'tired', 'dealer'])
+@bot.command(aliases = ['zoel', 'tired', 'dealer', 'blind', 'noeyes'])
 async def Zoel (ctx):
     await ctx.channel.send(file=discord.File('Pictures/Zoel.png'))
     await ctx.channel.send("A quiet one, I rarely saw him out in town unless he's passing into the forest.")
@@ -83,7 +83,7 @@ Skills: Animal handling, Insight, Perception
 Weapons: Short sword, Long bow
     """)
 
-@bot.command(aliases = ['moragel', 'mori', 'robbie'])
+@bot.command(aliases = ['moragel', 'mori', 'robbie', 'robbierotten'])
 async def Moragel (ctx):
     await ctx.channel.send(file=discord.File('Pictures/Moragel.png'))
     await ctx.channel.send("He seems to stay to the shadows. I dont know much about him, but i do know he's loyal.")
@@ -151,7 +151,7 @@ Skills: Acrobatics, History, Insight, perception, Stealth
 Weapons: Short sword, 2 Sickles
     """)
 
-@bot.command(name ='smoke')
+@bot.command(aliases =['smoke', 'vape', '420', 'naruto'])
 async def Smoke (ctx):
     await ctx.channel.send(file=discord.File('Pictures/Smoke.png'))
     await ctx.channel.send("He's a feisty one! arguably the polar opposite of his older sister.")
@@ -168,7 +168,7 @@ Skills: Arcana, Insight, Intimidation, Perception, stealth
 Weapons: 2 Daggers, Quarterstaff
     """)
 
-@bot.command(name ='gaela')
+@bot.command(aliases =['gaela', 'boxer'])
 async def Gaela (ctx):
     await ctx.channel.send(file=discord.File('Pictures/Gaela.png'))
     await ctx.channel.send("I hear some auful gossip about her... \nI hope its not true.")
@@ -185,7 +185,7 @@ Skills: Athletics, Intimidation, Survival
 Weapons: 2 Hand axe, Great axe
     """)
 
-@bot.command(name ='spring')
+@bot.command(aliases =['spring', 'summer'])
 async def Spring (ctx):
     await ctx.channel.send(file=discord.File('Pictures/Spring.png'))
     await ctx.channel.send("A man of the book, he practices science.. and self love.")
@@ -202,7 +202,7 @@ Skills: Arcana, History
 Weapons: Quarterstaff, Hand axe
     """)
 
-@bot.command(aliases = ['vix', 'vixera', 'ginger'])
+@bot.command(aliases = ['vix', 'vixera', 'ginger', 'scientology'])
 async def Vixera (ctx):
     await ctx.channel.send(file=discord.File('Pictures/Vixera.png'))
     await ctx.channel.send("A very bright woman, with a very short fuse.")
@@ -219,7 +219,7 @@ Skills: Arcana, Nature, Religion, Sleight of hand
 Weapons: Dagger, Quarterstaff
     """)
 
-@bot.command(aliases = ['siverdale', 'snipsnip', 'snippetman'])
+@bot.command(aliases = ['siverdale', 'snipsnip', 'snippetman', 'tinyman', 'gnotagnelf', 'gnotagnoblin'])
 async def Siverdale (ctx):
     await ctx.channel.send(file=discord.File('Pictures/Siverdale.png'))
     await ctx.channel.send("Can't fathom how an innocent young lad found himself in this establishment.")
@@ -253,7 +253,7 @@ Skills: Deception, Insight, Perception, Performance, Persuasion
 Weapons: Short bow, Dagger, War hammer, Long bow
     """)
 
-@bot.command(aliases = ['vanelis', 'vanilla', 'onehand', 'virgin', 'cripple', 'handy', 'boomer', 'winemom'])
+@bot.command(aliases = ['vanelis', 'vanilla', 'onehand', 'virgin', 'cripple', 'handy', 'boomer', 'winemom', 'villagesaver'])
 async def Vanelis (ctx):
     await ctx.channel.send(file=discord.File('Pictures/Vanelis.png'))
     await ctx.channel.send("I heard rumors of his past, just make sure you shake the right hand.")
@@ -270,7 +270,7 @@ Skills: Arcana, Deception, Intimidation, Investigation, Perception
 Weapons: 2 Hand axe, 2 Dagger, Staff, Morning star
     """)
 
-@bot.command(aliases = ['naatzi', 'hitler', 'natzi', 'megumin', 'vore', 'phoo'])
+@bot.command(aliases = ['naatzi', 'hitler', 'natzi', 'megumin', 'vore', 'phoo', 'nazi', 'lizard'])
 async def Naatzi (ctx):
     await ctx.channel.send(file=discord.File('Pictures/Naatzi.png'))
     await ctx.channel.send("Hot temper... hot head... make sure to have a bucket of water near him.")
@@ -321,7 +321,7 @@ Skills: Medicine, Religion
 Weapons: The power of love
     """)
 
-@bot.command(aliases = ['thoradin', 'toblerone', 'torbjorn'])
+@bot.command(aliases = ['thoradin', 'toblerone', 'torbjorn', 'onion'])
 async def Thoradin (ctx):
     await ctx.channel.send(file=discord.File('Pictures/Thoradin.png'))
     await ctx.channel.send("Heard of a stubborn cleric with a weird obsession with sparrows, although I didnt see him around lately.")
@@ -344,7 +344,7 @@ Weapons: Warhammer, Hand axe
 
 # Acacia residents
 #----------------------------------------------------------------
-@bot.command(aliases = ['rumia', 'rum', 'rummy', 'wifey'])
+@bot.command(aliases = ['rumia', 'rum', 'rummy', 'wifey', 'boozemom'])
 async def Rumia (ctx):
     await ctx.channel.send(file=discord.File('Pictures/Rum.png'))
     await ctx.channel.send("A dear friend! I heard she's the only one who tamed Mr. free bird himself.")
@@ -361,7 +361,7 @@ Skills: Deception, Investigation, Performance, Persuasion
 Weapons: Hand axe, Light crossbow
     """)
 
-@bot.command(aliases = ['flutter', 'bird', 'seeds', 'prettybird', 'featherey'])
+@bot.command(aliases = ['flutter', 'bird', 'seeds', 'prettybird', 'featherey', 'avian', 'crow'])
 async def Flutter (ctx):
     await ctx.channel.send(file=discord.File('Pictures/Flutter.png'))
     await ctx.channel.send("A curious type, never met a kenku that speaks common as well as him.")
@@ -378,7 +378,7 @@ Skills: Deception, History, Persuasion, Stealth
 Weapons: Dagger, Sickle
     """)
 
-@bot.command(aliases = ['strong', 'orc', 'pie', 'pieman', 'babydaddy', 'soft'])
+@bot.command(aliases = ['strong', 'orc', 'pie', 'pieman', 'soft'])
 async def Strong (ctx):
     await ctx.channel.send(file=discord.File('Pictures/Strong.png'))
     await ctx.channel.send("Has a frightning demeanor, but he's as sweet as the pies he bakes.")
@@ -418,7 +418,7 @@ Weapons: Quarterstaff
 
 # Unknown deitys
 #----------------------------------------------------------------
-@bot.command(aliases = ['dm', 'them', 'gm', 'GM', 'god'])
+@bot.command(aliases = ['dm', 'them', 'gm', 'GM', 'god', 'godmode', 'sexy', 'jesus', 'voldemort', 'theunspoken', 'beholder','pussymagnet'])
 async def DM(ctx):
     await ctx.channel.send(file=discord.File('Pictures/DM.png'))
     await ctx.channel.send("I... I do not know who you speak of..")
