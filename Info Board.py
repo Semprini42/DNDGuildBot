@@ -168,7 +168,7 @@ Skills: Arcana, Insight, Intimidation, Perception, stealth
 Weapons: 2 Daggers, Quarterstaff
     """)
 
-@bot.command(aliases =['gaela', 'boxer'])
+@bot.command(aliases =['gaela', 'boxer', 'orclady'])
 async def Gaela (ctx):
     await ctx.channel.send(file=discord.File('Pictures/Gaela.png'))
     await ctx.channel.send("I hear some auful gossip about her... \nI hope its not true.")
