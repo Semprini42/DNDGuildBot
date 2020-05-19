@@ -3,7 +3,7 @@ import json
 from discord.ext import commands
 with open('config.json') as f:
     config = json.load(f)
-#this is monkey cum nomi pp piss shitasss shart
+
 bot = commands.Bot(command_prefix="!")
 
 @bot.event
