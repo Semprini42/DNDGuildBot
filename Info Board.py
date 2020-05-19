@@ -1,6 +1,6 @@
 import discord
 from discord.ext import commands
-
+#commit test
 bot = commands.Bot(command_prefix="!")
 
 @bot.event
