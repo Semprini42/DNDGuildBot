@@ -424,7 +424,7 @@ async def DM(ctx):
     await ctx.channel.send("I... I do not know who you speak of..")
     await ctx.channel.send("""
 **DM**
-Creator level ????????
+The narrator level ????????
 Strength: 99999
 Dexterity: 99999
 Constitution: 99999
