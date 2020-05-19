@@ -32,15 +32,15 @@ async def learn(ctx):
 
 # Guild Members
 #----------------------------------------------------------------
-@bot.command(aliases =['caserin', 'babyboy', 'whatishentai'])
+@bot.command(aliases =['caserin', 'babyboy', 'whatishentai', 'bossman', 'mrottom', 'imgonnafightatree'])
 async def Caserin (ctx):
     await ctx.channel.send(file=discord.File('Pictures/Caserin.png'))
     await ctx.channel.send("Oh? Weird of you to ask about him, everyone know who Caserin Ottom is.")
     await ctx.channel.send("""
 **Caserin S. Ottom**
 Wood elf Paladin level 20
-Strength: +2
-Dexterity: 0
+Strength: +3
+Dexterity: +1
 Constitution: +2
 Intelligence: 0
 Wisdom: +2
@@ -49,7 +49,7 @@ Skills: Athletics, Insight, Perception, Survival
 Weapons: 2 Short swords, Javelins
     """)
 
-@bot.command(aliases =['kigana', 'kiki', 'bazinga', 'scaly'])
+@bot.command(aliases =['kigana', 'kiki', 'lesbo', 'scaly', 'betterthannaatzi', 'gamergirl'])
 async def Kigana (ctx):
     await ctx.channel.send(file=discord.File('Pictures/Kigana.png'))
     await ctx.channel.send("Ahh so many tales of the white dragon! \nShe's the tough left hand of mr Ottom himself!")
@@ -66,7 +66,7 @@ Skills: Athletics, Insight, Survival
 Weapons: 2 Hand axes, War axe
     """)
 
-@bot.command(aliases = ['zoel', 'tired', 'dealer', 'blind', 'noeyes'])
+@bot.command(aliases = ['zoel', 'tired', 'dealer', 'blind', 'noeyes', 'fanfavorite'])
 async def Zoel (ctx):
     await ctx.channel.send(file=discord.File('Pictures/Zoel.png'))
     await ctx.channel.send("A quiet one, I rarely saw him out in town unless he's passing into the forest.")
@@ -83,7 +83,7 @@ Skills: Animal handling, Insight, Perception
 Weapons: Short sword, Long bow
     """)
 
-@bot.command(aliases = ['moragel', 'mori', 'robbie', 'robbierotten'])
+@bot.command(aliases = ['moragel', 'mori', 'robbie', 'robbierotten', 'emo'])
 async def Moragel (ctx):
     await ctx.channel.send(file=discord.File('Pictures/Moragel.png'))
     await ctx.channel.send("He seems to stay to the shadows. I dont know much about him, but i do know he's loyal.")
@@ -117,7 +117,7 @@ Skills: Acrobatics, Deception, Insight, Performance, Persuasion
 Weapons: Rapier, Dagger
     """)
 
-@bot.command(aliases = ['gusher', 'twunk', 'bigfoot'])
+@bot.command(aliases = ['gusher', 'twunk', 'bigfoot', 'hunk', 'himbo'])
 async def Gusher (ctx):
     await ctx.channel.send(file=discord.File('Pictures/Gusher.png'))
     await ctx.channel.send("At first I thought he was a big mean fella, but he ended up being a gentle giant... sounds familiar")
@@ -185,7 +185,7 @@ Skills: Athletics, Intimidation, Survival
 Weapons: 2 Hand axe, Great axe
     """)
 
-@bot.command(aliases =['spring', 'summer'])
+@bot.command(aliases =['spring', 'potionseller'])
 async def Spring (ctx):
     await ctx.channel.send(file=discord.File('Pictures/Spring.png'))
     await ctx.channel.send("A man of the book, he practices science.. and self love.")
@@ -236,7 +236,7 @@ Skills: Animal handling, Nature, Perception
 Weapons: Short bow, Mace
     """)
 
-@bot.command(aliases = ['simon', 'semen', 'hentai', 'twink', 'handjob'])
+@bot.command(aliases = ['simon', 'semen', 'hentai', 'twink', 'handjob', 'marceline'])
 async def Simon (ctx):
     await ctx.channel.send(file=discord.File('Pictures/Simon.png'))
     await ctx.channel.send("I heard stories about his relatives but... these stories don't sound likely.")
@@ -270,7 +270,7 @@ Skills: Arcana, Deception, Intimidation, Investigation, Perception
 Weapons: 2 Hand axe, 2 Dagger, Staff, Morning star
     """)
 
-@bot.command(aliases = ['naatzi', 'hitler', 'natzi', 'megumin', 'vore', 'phoo', 'nazi', 'lizard'])
+@bot.command(aliases = ['naatzi', 'hitler', 'natzi', 'megumin', 'vore', 'phoo', 'nazi', 'lizard', 'avatar'])
 async def Naatzi (ctx):
     await ctx.channel.send(file=discord.File('Pictures/Naatzi.png'))
     await ctx.channel.send("Hot temper... hot head... make sure to have a bucket of water near him.")
@@ -304,7 +304,7 @@ Skills: Deception, Insight, Perception, Performance, Persuasion
 Weapons: Crossbow, Dagger, Long bow, Longsword
     """)
 
-@bot.command(aliases = ['danarei', 'mercy', 'pacifistroute', 'heroesneverdie', 'loli'])
+@bot.command(aliases = ['danarei', 'mercy', 'pacifistroute', 'heroesneverdie', 'loli', 'purpleale'])
 async def Danarei (ctx):
     await ctx.channel.send(file=discord.File('Pictures/Danarei.png'))
     await ctx.channel.send("I heard some stories of a pacifist in the guild, but I never thought of them to be true.")
@@ -321,7 +321,7 @@ Skills: Medicine, Religion
 Weapons: The power of love
     """)
 
-@bot.command(aliases = ['thoradin', 'toblerone', 'torbjorn', 'onion'])
+@bot.command(aliases = ['thoradin', 'toblerone', 'torbjorn', 'onion', 'angrypotato', '1000ac'])
 async def Thoradin (ctx):
     await ctx.channel.send(file=discord.File('Pictures/Thoradin.png'))
     await ctx.channel.send("Heard of a stubborn cleric with a weird obsession with sparrows, although I didnt see him around lately.")
@@ -344,7 +344,7 @@ Weapons: Warhammer, Hand axe
 
 # Acacia residents
 #----------------------------------------------------------------
-@bot.command(aliases = ['rumia', 'rum', 'rummy', 'wifey', 'boozemom'])
+@bot.command(aliases = ['rumia', 'rum', 'rummy', 'wifey'])
 async def Rumia (ctx):
     await ctx.channel.send(file=discord.File('Pictures/Rum.png'))
     await ctx.channel.send("A dear friend! I heard she's the only one who tamed Mr. free bird himself.")
@@ -361,7 +361,7 @@ Skills: Deception, Investigation, Performance, Persuasion
 Weapons: Hand axe, Light crossbow
     """)
 
-@bot.command(aliases = ['flutter', 'bird', 'seeds', 'prettybird', 'featherey', 'avian', 'crow'])
+@bot.command(aliases = ['flutter', 'bird', 'seeds', 'prettybird', 'featherey', 'avian', 'crow', 'shopkeep', 'costco', 'elveneleven'])
 async def Flutter (ctx):
     await ctx.channel.send(file=discord.File('Pictures/Flutter.png'))
     await ctx.channel.send("A curious type, never met a kenku that speaks common as well as him.")
@@ -378,7 +378,7 @@ Skills: Deception, History, Persuasion, Stealth
 Weapons: Dagger, Sickle
     """)
 
-@bot.command(aliases = ['strong', 'orc', 'pie', 'pieman', 'soft'])
+@bot.command(aliases = ['strong', 'orc', 'pie', 'pieman', 'soft', 'dunkinsweetrolls', 'sweetroll'])
 async def Strong (ctx):
     await ctx.channel.send(file=discord.File('Pictures/Strong.png'))
     await ctx.channel.send("Has a frightning demeanor, but he's as sweet as the pies he bakes.")
@@ -395,7 +395,7 @@ Skills: Insight, Intimidation, Survival
 Weapons: 2 Short sword
     """)
 
-@bot.command(aliases = ['odette', 'gardengnome', 'librarian'])
+@bot.command(aliases = ['odette', 'gardengnome', 'librarian', 'pamphlet', 'nerd'])
 async def Odette (ctx):
     await ctx.channel.send(file=discord.File('Pictures/Odette.png'))
     await ctx.channel.send("Oh thats me the most knowledgeable gnome alive, in thirteen languages!\nDon't mind the embarrassing picture, they wont let me change it")
@@ -418,7 +418,7 @@ Weapons: Quarterstaff
 
 # Unknown deitys
 #----------------------------------------------------------------
-@bot.command(aliases = ['dm', 'them', 'gm', 'GM', 'god', 'godmode', 'sexy', 'jesus', 'voldemort', 'theunspoken', 'beholder','pussymagnet'])
+@bot.command(aliases = ['dm', 'them', 'gm', 'GM', 'god', 'godmode', 'sexy', 'jesus', 'voldemort', 'theunspoken', 'beholder','pussymagnet', 'dab'])
 async def DM(ctx):
     await ctx.channel.send(file=discord.File('Pictures/DM.png'))
     await ctx.channel.send("I... I do not know who you speak of..")
