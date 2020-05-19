@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 
 bot = commands.Bot(command_prefix="!")
-#test 2 the testeninv
+
 @bot.event
 async def on_ready():
     print('Logged in as {}'.format(bot.user.name))
