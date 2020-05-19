@@ -1,5 +1,8 @@
 import discord
+import json
 from discord.ext import commands
+with open('config.json') as f:
+    config = json.load(f)
 
 bot = commands.Bot(command_prefix="!")
 
@@ -437,4 +440,4 @@ async def gay(ctx):
     await ctx.channel.send("{} your mother is a homosexual".format(ctx.message.author.mention))
 #----------------------------------------------------------------
 
-bot.run('NzExMTI0ODI0NTU0MjA5MzEw.Xr-ctA.5DRWL4TjknNGU5oKfMOVzRPnPYs')
+bot.run(config['token'])
