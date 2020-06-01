@@ -3,7 +3,7 @@ import json
 from discord.ext import commands
 with open('config.json') as f:
     config = json.load(f)
-
+#
 bot = commands.Bot(command_prefix="!")
 
 @bot.event
