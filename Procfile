@@ -1,0 +1,1 @@
+worker: python info board.py
