@@ -32,7 +32,7 @@ async def learn(ctx):
 
 # Guild Members
 #----------------------------------------------------------------
-@bot.command(aliases =['caserin', 'babyboy', 'whatishentai', 'bossman', 'mrottom', 'imgonnafightatree'])
+@bot.command(aliases =['caserin', 'babyboy', 'whatishentai', 'bossman', 'mrottom', 'imgonnafightatree', 'bottom', 'ottom', 'prestongarvy', 'prestongravy'])
 async def Caserin (ctx):
     await ctx.channel.send(file=discord.File('Pictures/Caserin.png'))
     await ctx.channel.send("Oh? Weird of you to ask about him, everyone know who Caserin Ottom is.")
