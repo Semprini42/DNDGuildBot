@@ -1,1 +1,1 @@
-worker: python info board.py
+worker: python "Info Board.py"
